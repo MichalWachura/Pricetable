@@ -1,0 +1,111 @@
+
+  body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f3f4f6;
+    
+    
+
+    
+     
+    
+  }
+  /* Hint: What can you do with a media query and flexbox? */
+  @media (max-width: 1250px) {
+  
+    
+  }
+
+  .main-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;  /* to trzeba ustawic bo DIV nie zaiera całgeo ekanu  */
+    align-items: center;
+    
+    /* border: solid; */
+    
+    
+    
+  }
+  .pricing-container{
+    /* border: solid; */
+    border-color:orange ;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    transition: .17s;
+    
+    
+  }
+.karta{
+  background-color: #fff;
+  border-color: rgbr#fff;
+  border-radius: 2rem;
+  width: 15rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 13px 8px 20px 0px rgba(0,0,0,0.1);
+  transition: 0.7s;
+  cursor: pointer;
+  flex:1;
+  align-items: center;
+}
+.karta:hover{ 
+  
+  background-color: #292929;
+  border-color: rgbr#292929;
+  color: #fff;
+  box-shadow: 13px 8px 20px 0px rgba(0,0,0,0.1);
+  
+}
+.plan-features{
+  margin-top: 50px;
+  background-color: rgba(253, 251, 251, 0);
+   width: 70%;
+  height: 40%;
+  font-size: 15px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  border-radius: 1rem;
+  box-shadow: 0px 44px 56px -3px rgba(0,0,0,0.1);
+  
+}
+.number-price{
+  font-size: 3.5rem;
+}
+.plan-title{
+  color:#292929; ; 
+  margin-top: 40px;
+}
+.plan-price:hover{
+  color: #fff; 
+  
+}
+.plan-features:hover{
+  color: #ffffff;
+}
+.plan-title:hover{
+  color: #ffffff;
+}
+
+button{
+  margin-top: 37px;
+  border: none;
+  background-color: #292929;
+  color: #fff;
+  padding: 10px 10px;
+  border-radius: 22px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+}
+button:hover{
+  color: #292929;
+  background-color: #fff; 
+}
+
+
+
